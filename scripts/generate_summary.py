@@ -9,3 +9,4 @@ Homework Submission Rate: {data['HomeworkSubmitted'].mean()*100:.2f}%
 Students Absent This Week: {len(data[data['Attendance']==0])}
 """
 print(summary)
+ 
