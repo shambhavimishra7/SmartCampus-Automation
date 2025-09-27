@@ -11,3 +11,4 @@ print(f"Homework Submission Rate: {submission_rate:.2f}%")
 data['HomeworkSubmitted'].value_counts().plot(kind='bar', title='Homework Submission Status')
 plt.savefig('../visuals/report_sample.png')
 plt.show()
+ 
